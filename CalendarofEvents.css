@@ -5,14 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 #cover{
-  width: 600px;
+  width: 700px;
+  height: 1000px;
   background-size: cover;
   background-position: center;
 }
 .event-list {
     width: 600px;
-    margin: 0 auto;
-
   }
   
   .event-list h1 {
