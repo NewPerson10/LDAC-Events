@@ -1,6 +1,13 @@
+@media screen and  (min-width: 100px){
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .event-list {
     width: 600px;
     margin: 0 auto;
+
   }
   
   .event-list h1 {
@@ -62,4 +69,5 @@
 .back a{
     text-decoration: none;
     color: black;
+}
 }
