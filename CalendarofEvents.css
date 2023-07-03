@@ -6,6 +6,7 @@
   .event-list h1 {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   ul {
@@ -36,4 +37,29 @@
   .event-info p {
     margin: 5px 0;
   }
-    
+  .back{
+    background-color: #5488e90d;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 150px;
+    border: 2px solid black;
+    border-color: #5488e9a3;
+    font-weight: bolder;
+}
+.back img{
+    width: 30px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -3px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
