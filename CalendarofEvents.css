@@ -4,12 +4,56 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-#cover{
-  width: 700px;
-  height: 1000px;
-  background-size: cover;
-  background-position: center;
+
+#menubtn{
+  width: 100px;
+  height: 100px;
+  background: #4ea0e47e;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 100px;
+  border-radius: 3px;
+  z-index: 9999;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
 }
+#menubtn img{
+  width: 65px;
+  margin-top: 25px;
+}
+
+#SideNav{
+  width: 250px;
+  height: 3000px;
+  position: fixed;
+  right: -450px;
+  top: 0;
+  background: #357ace;
+  z-index: 999;
+  transition: 0.5s;
+  text-align: left;
+  border-radius: 10px;
+}
+#SideNav nav ul{
+  padding-top: 200px;
+}
+
+#SideNav nav ul li{
+  
+  list-style: none;
+  margin: 60px 30px;
+  
+}
+#SideNav nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 150%;
+  font-weight: bolder;
+  
+}
+
 .event-list {
     width: 600px;
   }
@@ -63,6 +107,7 @@
     border: 2px solid black;
     border-color: #5488e9a3;
     font-weight: bolder;
+    margin-bottom: 50px;
 }
 .back img{
     width: 30px;
