@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #cover{
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
